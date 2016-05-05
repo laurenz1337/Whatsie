@@ -21,7 +21,7 @@
     "gulp-filter": "4.0.0",
     "gulp-github-release": "1.1.5",
     "gulp-header": "1.7.1",
-    "gulp-if": "2.0.0",
+    "gulp-if": "2.0.1",
     "gulp-less": "3.0.5",
     "gulp-livereload": "3.8.1",
     "gulp-mustache": "2.2.0",
