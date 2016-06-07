@@ -426,6 +426,10 @@ select {
 	font-size: 12px !important;
 }
 
+.intro-image {
+	background-image: url('http://i.imgur.com/4UUlItJ.png');
+}
+
 .meta-audio {
 	font-size: 10px!important;
 }
@@ -663,7 +667,7 @@ a.button.button-contact {
 	background: rgba(220, 248, 198, 0)
 }
 
-.icon:not(.icon-status-dblcheck-ack):not(.icon-msg-dblcheck-ack):not(.icon-msg-dblcheck):not(.icon-alert) {
+.btn-icon, .icon:not(.icon-status-dblcheck-ack):not(.icon-msg-dblcheck-ack):not(.icon-msg-dblcheck):not(.icon-alert) {
 	-webkit-filter: invert(1) brightness(40);
 	filter: invert(1) brightness(40);
 }
@@ -679,4 +683,8 @@ a.button.button-contact {
 
 .hidden-token > .emojitext {
 	color: white;
+}
+
+.message > button {
+	background-color: rgba(255,255,255,0.3);
 }
